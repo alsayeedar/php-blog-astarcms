@@ -13,10 +13,29 @@ AstaRCMS is a raw PHP blog project created by me during my early days of learnin
 - **Ads Section:** Monetize your blog by integrating an ads section. Display advertisements and generate revenue while maintaining a balance between content and ads for a pleasant user experience.
 - **XML Sitemap Generation:** Improve your blog's search engine visibility with automatic XML sitemap generation. Help search engines discover and index your content, potentially boosting SEO rankings.
 
+## Setup
+- Open ```include/config.php``` file and update database information.
+```php
+<?php
+$hostname = "YOURDBHOST"; // your hostname here
+$db_username = "YOURDBUSER"; // your database username here
+$db_password = "YOURDBPASS"; // your database password here
+$db_name = "YOURDBNAME"; // your database name here
+...
+```
+- Admin login url ```https://yoursitename.com/admin```
+- Default login information:
+```
+Email: admin@admin.com
+Password: admin
+```
+- Chnage login information from ```Admin Settings```
+
 ## Technology Stack
 - **Front-end:** HTML, CSS, Bootstrap, JavaScript
 - **Back-end:** PHP (Native, without frameworks)
 - **Database:** MySQL
+
 ## Screenshots
 <p align="center" width="100%">
     <img width="30%" src="https://raw.githubusercontent.com/alsayeedar/php-blog-astarcms/main/Screenshots/Screenshot-01.png"/>
